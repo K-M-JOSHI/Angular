@@ -16,7 +16,11 @@ public messageClasses = {
       "text-danger": this.hasError,
       "text-special": this.isSpecial
 }
-
+public highlightcolor = "blue";
+public styles = {
+  "color" : "pink",
+  "font-style": "italic"
+}
   constructor() { }
 
   ngOnInit() {

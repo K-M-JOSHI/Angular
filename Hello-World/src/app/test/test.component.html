@@ -5,3 +5,7 @@
   <h2 [class] = "successClass" >Demo</h2>
   <h2 [class.text-danger] = "hasError" >Demo</h2>
   <h2 [ngClass] = "messageClasses" >Demo</h2>
+
+  <h2 [style.color]="hasError ? 'red' : 'orange'"> Style Demo </h2>
+  <h2 [style.color]="highlightcolor"> Style Demo </h2>
+  <h2 [ngStyle]="styles"> Style Demo </h2>
