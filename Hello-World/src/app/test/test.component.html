@@ -1,4 +1,7 @@
-<p>
+<p [class]="title" >
  Hello {{name}}
-  
-</p>
+  </p>
+
+  <h2 [class] = "successClass" >Demo</h2>
+  <h2 [class.text-danger] = "hasError" >Demo</h2>
+  <h2 [ngClass] = "messageClasses" >Demo</h2>

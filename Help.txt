@@ -1,0 +1,3 @@
+ng new project_name
+ng g c component
+ng serve
